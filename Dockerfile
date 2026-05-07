@@ -1,5 +1,5 @@
 # Start from the official, minimal base image
-FROM node:25-alpine
+FROM node:26-alpine
 
 # Remediate known base-image vulnerabilities (CR-20251013-04)
 RUN apk update && apk upgrade busybox
